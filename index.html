@@ -428,5 +428,88 @@
         </div>
       </div>
     </footer>
+     <div class="overlay is-open">
+      <div class="modal">
+        <button type="button" class="model-close-btn">
+          <svg class="close-btn" width="8" height="8">
+            <use href="./images/closebtn.svg"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="form-name">
+            <div class="form-field">
+              <label for="Name" class="label">Name</label>
+              <div class="modal-wrap">
+                <input
+                  type="text"
+                  class="modal-input"
+                  name="Name"
+                  id="Name"
+                  required
+                />
+                <svg class="input-icon" width="15" height="12">
+                  <use href="./images/iconname.svg"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="Phone" class="label">Phone</label>
+              <div class="modal-wrap">
+                <input
+                  type="tel"
+                  class="modal-input"
+                  name="Phone"
+                  id="Phone"
+                  required
+                />
+                <svg class="input-icon" width="13" height="13">
+                  <use href="./images/icontel.svg"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="Email" class="label">Email</label>
+              <div class="modal-wrap">
+                <input
+                  type="email"
+                  class="modal-input"
+                  name="Email"
+                  id="Email"
+                  required
+                />
+                <svg class="input-icon" width="15" height="12">
+                  <use href="./images/iconposhta.svg"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="user-text" class="label">Comment</label>
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="modal-text"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+              <div class="form-field"></div> 
+              <input type="checkbox" 
+              name="terms"
+               id="terms"
+               value="true"
+               class="modal-terms visually-hidden"
+               checked>
+               <label for="terms" class="modal-terms-check">
+                <span><svg class="check" width="10" height="10">
+                 <use href="./images/check.svg"></use>
+               </svg></span>I accept the terms and conditions of the Privacy Policy</label>
+        </div>
+            <button type="submit" class="terms-btn">send</button>
+          </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
